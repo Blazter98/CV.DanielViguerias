@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #edf2f4;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #d90429;
+    transform: skewY(-5deg);
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+.name .content .p2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.name .foto{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;   
+}
+
+.name .foto img{
+    width: 200px;
+    height: 200px;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #d90429;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .tituloseccion{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;
+}
+
+.info .tituloinfo{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info .info{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.info .tel{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info .cel{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+.info .email{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info .correo{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.info .git{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info .gh{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.info .fb{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info .face{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+.estudios{
+    width: 90%;
+    height: auto;
+    background: #d90429;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.estudios .infoestudios{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;
+}
+
+.estudios .ing{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.estudios .uni{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.estudios .tsu{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.estudios .tec{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.estudios .prepa{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.laboral{
+    width: 90%;
+    height: auto;
+    background: #d90429;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.laboral .exp{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;
+}
+
+.laboral .inegi{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+.laboral .inegitareas{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    
+}
+
+.laboral .cap{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.laboral .captareas{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+.laboral .arkus{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 15px;
+}
+
+.laboral .arkustareas{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+.skills{
+    width: 90%;
+    height: auto;
+    background: #d90429;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tech{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid; 
+}
+
+.dbms{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 15px;
+
+}
+
+.frontend{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+.framework{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+.ide{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+.idiomas{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 15px;
+}
+ul{
+    text-align: center;
+}
+li{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    
+    
+}
